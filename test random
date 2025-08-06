@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Redirect...</title>
+    <script>
+      // Daftar link tujuan
+      const links = [
+        "https://youtube.com",
+        "https://google.com",
+        "https://facebook.com",
+        "https://twitter.com"
+      ];
+
+      // Pilih salah satu secara acak
+      const randomLink = links[Math.floor(Math.random() * links.length)];
+
+      // Redirect
+      window.location.href = randomLink;
+    </script>
+  </head>
+  <body>
+    <p>Mengarahkan...</p>
+  </body>
+</html>
